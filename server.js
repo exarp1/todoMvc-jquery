@@ -11,6 +11,6 @@ app.get("/", function (request, response) {
 });
 
 // listen for requests
-var listener = app.listen(process.env.PORT, function () {
-    console.log('Your ap is listening on port ' + listener.address().port);
+var listener = app.listen(3000, function () {
+    console.log('Your ap is listening on port ' + 3000);
 });
